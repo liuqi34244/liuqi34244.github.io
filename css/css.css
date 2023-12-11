@@ -1,0 +1,145 @@
+/*通用类*/
+*{
+	margin:0;
+	padding:0;	
+}
+body{		
+	min-width:1400px;
+	margin:0 auto;
+	font-size:14px;	
+	background:#fff;
+	text-align:justify;	
+	color:#000;
+}
+h1,h2,h3{	
+	font-weight:500;	
+}
+img{
+	border:none;	
+}
+a{
+	cursor:pointer;
+	color:#000;
+	text-decoration:none;	
+	outline:none;
+}
+
+ul{
+	list-style-type:none;	
+}
+
+
+
+div.clear{
+	font: 0px Arial; line-height:0;
+	height:0; 
+	overflow:hidden;	
+	clear:both;	
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
+*{box-sizing: border-box;}
+/*公用CSS 开始*/
+body{background: url(../images/beijing11.jpg)no-repeat fixed;background-size:cover;}
+.main{width: 1200px; margin: 0 auto;}
+.nav{width: 100%; height: 80px; background-color: #000000;}
+.nav ul li{width: 25%; float: left; }
+.nav ul li a{line-height: 80px; display:block; font-size: 20px; text-align: center; color: #FFFFFF;}
+.nav ul li a:hover{background-color:#515151; color: #FFFFFF;}
+.banner-1{width: 100%;}
+.banner-1 img{width: 100%;height: 500px;
+    object-fit: cover;}
+
+.e2{width: 100%;}
+.e2 h3{font-size: 30px; color: #A52A2A; text-align: center;}
+
+.content1{width: 100%; margin-top: 30px; background-color: #FFFFFF;}
+.content1  .text{width: 50%;float: left;}
+.content1 .text h3{font-size: 30px; color: brown;}
+.content1  .text p{line-height: 30px;  font-size: 18px;}
+.content1  .pic{width: 50%;float: right;  }
+.content1  .pic img{float: right; width: 90%;}
+.content1  .video{width: 50%;float: right;}
+.content1  .video video{width: 90%;float: right;}
+
+.content2{border-bottom: 1px solid #000000;}
+.content3{margin-top: 30px;}
+
+
+
+.xinwen1{width: 100%; margin-top: 30px;}
+.xinwen1 h3{font-size: 35px; text-align: center; background-color: #ccc;}
+.a2{width: 100%; margin-top: 50px;}
+.a3{width: 50%;float: left;}
+.a3 img{width: 80%; height: 400px; object-fit: contain;}
+.a4{width: 50%; float: right;}
+.a4 ul li{padding: 20px;}
+
+
+
+
+
+.folt1{width: 100%; height: 60px; background-color: #515151; margin-top: 30px;}
+.folt1 p{text-align: center; line-height: 60px; color: #FFFFFF;}
+
+
+
+.text-1{width: 100%; margin-top: 10px; background-color: #FFFFFF; text-align: center;}
+.text-1 h3{font-size: 35px; color: #A52A2A; text-align: center;}
+.text-1 p{font-size: 18px; color: #000; padding: 0 20px;}
+.text-1 img{margin-top: 20px; width: 600px; height: 400px; object-fit: cover;}
+
+
+.pic2{width: 100%; background-color: #FFFFFF; }
+.pic2 ul li{width: 33%;float: left; padding-left: 20px; margin: 20px 0;}
+.pic2 ul li img{width: 100%; height: 300px; object-fit: cover;}
+.pic2 ul li p{font-size: 18px; text-align: center;}
+
+.w2{width: 100%; margin-top: 50px;}
+.w2 h3{font-size: 35px; color: #A52A2A; text-align: center;}
+
+
+
+
+
+
+.liuyan1{width: 100%;}
+.liuyan2 {
+    width: 60%;
+    float: left;
+}
+.liuyan2 img{width: 100%; margin-top: 30px;}
+.liuyan3 {
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+}
+.liuyan3 input{width: 300px; height: 40px; display: block; margin-top: 20px;}
+
+
+.e2{width: 100%;}
+.e2 ul li{width: 33%;float: left; padding-left: 20px; margin: 20px 0;}
+.e2 ul li img{width: 100%; height: 300px;}
+.e2 ul li p{font-size: 18px; text-align: center; color: #A52A2A; margin-top: 10px;}
+
+
+
+
+.dier1{margin: 20px 0;}
+.dier2{width: 50%; float: left;}
+.dier2 img{width: 100%;}
+.dier3{width: 50%; float: right;}
+.dier3 h3{text-align: center; font-size: 28px;}
+.dier3 p{padding: 0 30px;margin-top: 30px; line-height: 36px; font-size: 16px;}
+.tupian1{margin: 20px 0;}
+.tupian1 ul{margin: 0 -20px;}
+.tupian1 ul li{width: 25%; padding: 0 20px;float: left;}
+.tupian1 ul li img{width: 100%; height: 220px;}
